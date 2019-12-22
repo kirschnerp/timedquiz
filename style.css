@@ -1,6 +1,6 @@
 body{
     font-size: 20px;
-    font-family: Arial, monospace;
+    font-family: Arial, Helvetica,
 }
 
 #container{
@@ -16,7 +16,7 @@ body{
     font-size: 1.5em;
     font-weight: bolder;
     word-break: break-all;
-    width:100px;
+    width:90px;
     height:150px;
     border : 2px solid lightgrey;
     text-align: center;
