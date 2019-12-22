@@ -1,6 +1,6 @@
 body{
     font-size: 20px;
-    font-family: monospace;
+    font-family: Arial, monospace;
 }
 
 #container{
@@ -24,32 +24,21 @@ body{
     position: absolute;
     left:300px;
     top:50px;
-    color : lightgrey;
+    color : black;
 }
 #start:hover{
-    border: 3px solid lightseagreen;
-    color : lightseagreen;
-}
-
-#qImg{
-    width : 200px;
-    height : 200px;
-    position: absolute;
-    left : 0px;
-    top : 0px;
-}
-#qImg img{
-    width : 200px;
-    height : 200px;
-    border-top-left-radius: 5px;
+    border: 3px solid red;
+    color : red;
 }
 
 #question{
-    width:500px;
+    width:700px;
     height : 125px;
-    position: absolute;
+    text-align: center;
+    position: static;
     right:0;
     top:0;
+    
 }
 #question p{
     margin : 0;
@@ -58,11 +47,12 @@ body{
 }
 
 #choices{
-    width : 480px;
+    width : 700px;
     position: absolute;
     right : 0;
     top : 125px;
-    padding : 10px
+    padding : 10px;
+    text-align: center;
 }
 .choice{
     display: inline-block;
@@ -79,10 +69,11 @@ body{
 }
 
 #timer{
-    position: absolute;
+    position: relative;
     height : 100px;
     width : 200px;
-    bottom : 0px;
+    top : 0px;
+    left : 750px;
     text-align: center;
 }
 #counter{
